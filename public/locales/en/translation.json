@@ -1,4 +1,7 @@
 {
   "language": "English",
-  "loading": "loading"
+  "loading": "loading",
+  "page error": "page error",
+  "update page": "update page",
+  "throw error": "throw error"
 }

@@ -1,4 +1,7 @@
 {
   "language": "Русский",
-  "loading": "загрузка"
+  "loading": "загрузка",
+  "page error": "ошибка",
+  "update page": "обновить страницу",
+  "throw error": "пробросить ошибку"
 }
