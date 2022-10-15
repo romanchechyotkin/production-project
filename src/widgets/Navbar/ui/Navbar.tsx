@@ -15,7 +15,6 @@ export const Navbar: React.FC<NavbarProps> = ({className}) => {
         <nav className={classNames(cls.Navbar, {}, [className])}>
             <div className={cls.links}>
                 <AppLink theme={AppLinkTheme.SECONDARY} to="/">{t("main")}</AppLink>
-                {/* eslint-disable-next-line i18next/no-literal-string */}
                 <AppLink theme={AppLinkTheme.SECONDARY} to="/about">{t("about")}</AppLink>
             </div>
         </nav>
