@@ -22,9 +22,9 @@ export function buildPlugins({paths, isDev}: BuildOptions): webpack.WebpackPlugi
     if (isDev === true) {
         plugins.push(new BundleAnalyzerPlugin({
             openAnalyzer: false
-        }))
-        plugins.push(new webpack.HotModuleReplacementPlugin())
+        }));
+        plugins.push(new webpack.HotModuleReplacementPlugin());
     }
 
-    return plugins
+    return plugins;
 }
