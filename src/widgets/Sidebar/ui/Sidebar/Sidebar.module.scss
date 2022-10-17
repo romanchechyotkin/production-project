@@ -19,3 +19,32 @@
     gap: 40px;
     width: 100%;
 }
+
+.collapsedBtn {
+    position: absolute;
+    bottom: 32px;
+    right: -32px;
+}
+
+.items {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.item {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.icon {
+    fill: var(--inverted-primary-color);
+    height: 20px;
+    width: 20px;
+}
