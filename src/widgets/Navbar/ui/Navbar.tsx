@@ -10,7 +10,6 @@ export const Navbar: React.FC<NavbarProps> = ({className}) => {
     return (
         <nav className={classNames(cls.Navbar, {}, [className])}>
             <div className={cls.links}>
-                LOL
             </div>
         </nav>
     );
