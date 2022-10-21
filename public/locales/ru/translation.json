@@ -4,5 +4,6 @@
   "page error": "ошибка",
   "update page": "обновить страницу",
   "throw error": "пробросить ошибку",
-  "short language name": "ru"
+  "short language name": "ru",
+  "login": "войти"
 }
