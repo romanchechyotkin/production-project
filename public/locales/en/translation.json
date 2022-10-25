@@ -5,5 +5,7 @@
   "update page": "update page",
   "throw error": "throw error",
   "short language name": "en",
-  "login": "login"
+  "login": "login",
+  "username": "username",
+  "password": "password"
 }

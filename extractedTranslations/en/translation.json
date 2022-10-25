@@ -6,6 +6,8 @@
   "main": "",
   "notFound": "",
   "page error": "page error",
+  "password": "",
   "throw error": "throw error",
-  "update page": "update page"
+  "update page": "update page",
+  "username": ""
 }

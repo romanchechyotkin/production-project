@@ -5,5 +5,7 @@
   "update page": "обновить страницу",
   "throw error": "пробросить ошибку",
   "short language name": "ru",
-  "login": "войти"
+  "login": "войти",
+  "username": "имя пользователя",
+  "password": "пароль"
 }
