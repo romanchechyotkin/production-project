@@ -7,5 +7,7 @@
   "short language name": "en",
   "login": "login",
   "username": "username",
-  "password": "password"
+  "password": "password",
+  "incorrect username or password": "incorrect username or password",
+  "logout": "logout"
 }

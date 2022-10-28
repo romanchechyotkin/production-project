@@ -1,8 +1,10 @@
 {
   "about": "",
+  "incorrect username or password": "",
   "language": "",
   "loading": "",
   "login": "login",
+  "logout": "",
   "main": "",
   "notFound": "",
   "page error": "page error",

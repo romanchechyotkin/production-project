@@ -7,5 +7,7 @@
   "short language name": "ru",
   "login": "войти",
   "username": "имя пользователя",
-  "password": "пароль"
+  "password": "пароль",
+  "incorrect username or password": "неверное имя пользователя или пароль",
+  "logout": "выйти"
 }
