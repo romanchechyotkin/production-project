@@ -26,6 +26,7 @@ export const Navbar: React.FC<NavbarProps> = ({className}) => {
     }, []);
 
     const onLogout = useCallback(() => {
+        setAuthModal(false)
         dispatch(userActions.logout());
     }, [dispatch]);
 
@@ -35,7 +36,6 @@ export const Navbar: React.FC<NavbarProps> = ({className}) => {
                 <Button onClick={onLogout} theme={ButtonTheme.BACKGROUND} className={cls.links}>
                     {t("logout")}
                 </Button>
-                <LoginModal isOpen={authModal} onClose={onCloseModal} />
             </nav>
         );
     }
@@ -45,7 +45,7 @@ export const Navbar: React.FC<NavbarProps> = ({className}) => {
             <Button onClick={onShowModal} theme={ButtonTheme.BACKGROUND} className={cls.links}>
                 {t("login")}
             </Button>
-            <LoginModal isOpen={authModal} onClose={onCloseModal} />
+            {authModal && <LoginModal isOpen={authModal} onClose={onCloseModal}/>}
         </nav>
     );
 };
